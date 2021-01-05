@@ -1,4 +1,115 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5FF3B6D8
+P 4350 1850
+F 0 "D?" H 4343 2067 50  0000 C CNN
+F 1 "LED" H 4343 1976 50  0000 C CNN
+F 2 "" H 4350 1850 50  0001 C CNN
+F 3 "~" H 4350 1850 50  0001 C CNN
+	1    4350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FF3BA63
+P 4350 2150
+F 0 "D?" H 4343 2367 50  0000 C CNN
+F 1 "LED" H 4343 2276 50  0000 C CNN
+F 2 "" H 4350 2150 50  0001 C CNN
+F 3 "~" H 4350 2150 50  0001 C CNN
+	1    4350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF3C254
+P 3350 1850
+F 0 "R?" H 3420 1896 50  0000 L CNN
+F 1 "R" H 3420 1805 50  0000 L CNN
+F 2 "" V 3280 1850 50  0001 C CNN
+F 3 "~" H 3350 1850 50  0001 C CNN
+	1    3350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF3C8E0
+P 3150 1850
+F 0 "R?" H 3220 1896 50  0000 L CNN
+F 1 "R" H 3220 1805 50  0000 L CNN
+F 2 "" V 3080 1850 50  0001 C CNN
+F 3 "~" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF3CD29
+P 2950 1800
+F 0 "R?" H 3020 1846 50  0000 L CNN
+F 1 "R" H 3020 1755 50  0000 L CNN
+F 2 "" V 2880 1800 50  0001 C CNN
+F 3 "~" H 2950 1800 50  0001 C CNN
+	1    2950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF3D0BB
+P 2700 1800
+F 0 "R?" H 2770 1846 50  0000 L CNN
+F 1 "R" H 2770 1755 50  0000 L CNN
+F 2 "" V 2630 1800 50  0001 C CNN
+F 3 "~" H 2700 1800 50  0001 C CNN
+	1    2700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U?
+U 1 1 5FF3D6AB
+P 1750 1350
+F 0 "U?" H 1750 1717 50  0000 C CNN
+F 1 "LM324" H 1750 1626 50  0000 C CNN
+F 2 "" H 1700 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1800 1550 50  0001 C CNN
+	1    1750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5FF3E286
+P 1700 2100
+F 0 "RV?" H 1631 2146 50  0000 R CNN
+F 1 "R_POT" H 1631 2055 50  0000 R CNN
+F 2 "" H 1700 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5FF3E8C4
+P 4800 1200
+F 0 "J?" H 4908 1481 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4908 1390 50  0000 C CNN
+F 2 "" H 4800 1200 50  0001 C CNN
+F 3 "~" H 4800 1200 50  0001 C CNN
+	1    4800 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
