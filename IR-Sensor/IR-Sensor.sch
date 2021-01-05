@@ -112,4 +112,26 @@ F 3 "~" H 4800 1200 50  0001 C CNN
 	1    4800 1200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Sensor_Optical:SFH2701 D?
+U 1 1 5FF3F560
+P 3250 1200
+F 0 "D?" H 3200 1495 50  0000 C CNN
+F 1 "SFH2701" H 3200 1404 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 3250 1375 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic6/00201111_0.pdf/SFH%202701.pdf" H 3200 1200 50  0001 C CNN
+	1    3250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:IR26-21C_L110_TR8 D?
+U 1 1 5FF3FBB9
+P 3850 1150
+F 0 "D?" H 3843 1367 50  0000 C CNN
+F 1 "IR26-21C_L110_TR8" H 3843 1276 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3850 1350 50  0001 C CNN
+F 3 "http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf" H 3850 1150 50  0001 C CNN
+	1    3850 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
