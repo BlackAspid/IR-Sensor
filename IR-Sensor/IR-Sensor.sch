@@ -265,6 +265,4 @@ Wire Notes Line
 	6750 3350 6750 4850
 Text Notes 4100 3100 0    50   ~ 0
 MAX VOLTAGE:
-Text Notes 4100 3200 0    50   ~ 0
-MAX CURRENT:
 $EndSCHEMATC
