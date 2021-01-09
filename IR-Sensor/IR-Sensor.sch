@@ -263,4 +263,6 @@ Wire Notes Line
 	7900 3350 7900 4850
 Wire Notes Line
 	6750 3350 6750 4850
+Text Notes 4100 3100 0    50   ~ 0
+MAX VOLTAGE:
 $EndSCHEMATC
