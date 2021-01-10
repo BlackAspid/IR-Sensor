@@ -249,10 +249,6 @@ Wire Notes Line
 	6650 3250 6650 2000
 Wire Notes Line
 	6650 2000 5100 2000
-Wire Notes Line
-	6750 4850 7900 4850
-Wire Notes Line
-	7900 3350 6750 3350
 Text Notes 6000 5200 0    50   ~ 0
 IC CONNECTION
 Text Notes 6150 3200 0    50   ~ 0
@@ -260,9 +256,15 @@ CONNECTOR
 Text Notes 7300 4800 0    50   ~ 0
 LED INDICATOR
 Wire Notes Line
-	7900 3350 7900 4850
+	8150 3350 8150 4850
 Wire Notes Line
 	6750 3350 6750 4850
 Text Notes 4100 3100 0    50   ~ 0
 MAX VOLTAGE:
+Text Notes 4100 3200 0    50   ~ 0
+MAX CURRENT:
+Wire Notes Line
+	6750 4850 8150 4850
+Wire Notes Line
+	6750 3350 8150 3350
 $EndSCHEMATC
