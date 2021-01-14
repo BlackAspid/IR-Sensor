@@ -256,7 +256,11 @@ CONNECTOR
 Text Notes 7300 4800 0    50   ~ 0
 LED INDICATOR
 Wire Notes Line
+<<<<<<< HEAD
 	8150 3350 8150 4850
+=======
+	8100 3350 8100 4850
+>>>>>>> develop
 Wire Notes Line
 	6750 3350 6750 4850
 Text Notes 4100 3100 0    50   ~ 0
@@ -264,7 +268,13 @@ MAX VOLTAGE:
 Text Notes 4100 3200 0    50   ~ 0
 MAX CURRENT:
 Wire Notes Line
+<<<<<<< HEAD
 	6750 4850 8150 4850
 Wire Notes Line
 	6750 3350 8150 3350
+=======
+	6750 4850 8100 4850
+Wire Notes Line
+	6750 3350 8100 3350
+>>>>>>> develop
 $EndSCHEMATC
